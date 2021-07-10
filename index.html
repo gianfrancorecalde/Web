@@ -1,4 +1,4 @@
-<!--Todo se hace con etiquetas <algo> -->
+<!--Todo se hace con etiquetas <algo></algo> o autoconclusiva <algo2/> -->
 <!DOCTYPE html>
 <!--La eqiqueta de arriba siempre debe aparecer, y todo lo que esta por debajo es lo que aparecera en la pagina-->
 <html>
@@ -6,12 +6,19 @@
     <!--Cabeza, lo que se haha no siempre sera visible en la pagina-->
         <title>Primera Web</title>
         <!-- la etiqueta title, titulo, cambia el nombre de la pagina que aparece en al pestaña-->  
+        <!-- vincular .html con otro cosa -->
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <!-- Cuerpo, todo va a ser visible-->
-        <h1 style="color:blue"> Hola mundo! </h1>
+        <h1> Hola mundo! </h1>
         <h2>Hola mundo</h2>
-        <h3>Hola mundo</h3>
+        <h3 class="colorVerde">Hola mundo</h3>
+        <h5>Hola mundo</h5>
+        <h6>Hola mundo</h6>
+        <h4>Hola otro mundo</h4>
+        <h7>Hola otra mundo</h7>
+        <h8>Hola otra mundo</h8>
         <p>
             <!-- etiqueta para escribir texto-->
             hola mundo yo que no sos mundo
@@ -20,7 +27,10 @@
             <!-- texto subrayado-->
             texto subrayado
         </u>
-        <i><!--texto en italiano--></i>
+        <i>
+            <!--texto en italic (cursiva de word)-->
+            texto parecido al cursiva de word
+        </i>
         <b><!--texto en negro--></b>
     </body>
 </html>

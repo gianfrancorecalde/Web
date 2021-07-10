@@ -1,0 +1,9 @@
+/* Aca se traba con la personalizacion de la pagina*/
+body{
+    color: royalblue;
+}
+/* antepongo un punto para indicar q es una clase */
+/* el proposito es agregar caracterisitca que tendra esa clase y que despues solo las implemente la clase en .html */
+.colorVerde{
+    color: green;
+}
